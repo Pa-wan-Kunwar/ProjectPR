@@ -12,7 +12,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" media="screen" href="assets/css/main.css" />
-    <script src="main.js"></script>
+    
 </head>
 
 <body>
@@ -20,7 +20,7 @@
     <div class=" pb-3" id="home-front">
 
         <!-- Nav bar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light bg-transparent">
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark bg-transparent">
             <div class="container-fluid">
 
                 <a class="navbar-brand col-3 col-sm-4 col-lg-6" href="#">
@@ -37,7 +37,7 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="about.html">About</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Services</a>
@@ -58,11 +58,11 @@
                     <p class="fs-1"><strong>The Right PR</strong></p>
                     <div id="typed-strings">
                             <p><strong class="fs-1">Your Image, Our Duty</strong> </p>
-                           <p><strong class="fs-1">Your Image, Our Duty</strong> </p>
+                            <p><strong class="fs-1">Your Image, Our Duty</strong> </p>
                           </div>
                     <span id="typed"></span>
             </div>
-            <div class="d-grid mt-4 gap-2 d-md-block text-center ">
+            <div class="d-grid mt-4 gap-2 d-md-block text-center col-12 col-lg-12 justify-content-center">
                 <button type="button" class="btn btn-dark d-inline-block">Explore Work</button>
                 <button type="button" class="btn btn-outline-success d-inline-block">Learn More -></button>
             </div>
@@ -172,7 +172,7 @@
                             requirements of your company in terms of Public Relations.
                             In PR industry, we have a proven track record of establishing a solid PR image in the public
                             eye.</p>
-                        <button type="button" class="btn btn-warning btn-sm align-self-center" style="width: 150px"> Read More</button>
+                        <a href="about.html"><button type="button" class="btn btn-warning btn-sm align-self-center" style="width: 150px">Read More</button></a>
                     </div>
                 </div>
             </div>
@@ -232,20 +232,8 @@
         integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
     </script>
     <script src="assets/vendor/typed.js/typed.js"></script>
+    <script src="/assets/js/main.js"></script>
 
-    <script>
-            var typed = new Typed('#typed', {
-              stringsElement: '#typed-strings',
-              typeSpeed: 50,
-              smartBackspace: true,
-              backDelay: 700,
-              backspeed: 30,
-              loop: true,
-              loopCount: Infinity, 
-              
-
-            });
-          </script>
 </body>
 
 </html>

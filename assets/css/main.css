@@ -20,7 +20,7 @@
     }
 }
 #logo {
-    max-width: 40%;
+    max-width: 30%;
     height: auto;
   }
 
@@ -32,3 +32,4 @@
 .bg-navydark {
     background-color: #000716;
 }
+
