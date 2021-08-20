@@ -15,6 +15,7 @@
 
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/main.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/about.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/services.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="assets/vendor/owlCarousel/css/owl.theme.min.css" />
 </head>
 
@@ -26,7 +27,7 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-dark bg-transparent">
             <div class="container-fluid">
 
-                <a class="navbar-brand col-3 col-sm-4 col-lg-6" href="#">
+                <a class="navbar-brand col-3 col-sm-4 col-lg-6" href="index.html">
                     <img id="logo" src="/img/logo/logo.png" alt="">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -40,13 +41,13 @@
                             <a class="nav-link " aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">About</a>
+                            <a class="nav-link active" href="about.html">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Services</a>
+                            <a class="nav-link" href="services.html">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="contact.html">Contact</a>
                         </li>
 
                     </ul>
@@ -60,11 +61,12 @@
         <section>
 
             <div class="container">
-                <div>
+                <div class="text-center">
                     <h1>About Us</h1>
                 </div>
                 <div>
-                    <p><b>
+                    <p> <br>
+                        <b>
                             As our slogan – “Your Image, Our Duty” – aptly suggests,
                             once we get mandate to build your PR, we leave no stone unturned in establishing the best
                             for your company’s image in the market, respective business domains.
@@ -99,11 +101,12 @@
     </div>
 
     <!-- End of section -->
-    <div class="text-center  mb-4">
+    <div class="mb-4">
+        <div class="text-center  mb-4">
             <h1 class="my-2"> Testimonial</h1>
         </div>
-    <div class="container mb-6" style="height:auto;">
-        
+        <div class="container mb-6" style="height:auto;">
+
             <div class="row">
                 <div class="col-md-12">
                     <div id="testimonial-slider" class="owl-carousel">
@@ -116,7 +119,9 @@
                                 <span class="post">Web Developer</span>
                             </div>
                             <p class="description">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam varius eros consequat auctor gravida. Fusce tristique lacus at urna sollicitudin pulvinar. Suspendisse hendrerit ultrices mauris.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam varius eros consequat
+                                auctor gravida. Fusce tristique lacus at urna sollicitudin pulvinar. Suspendisse
+                                hendrerit ultrices mauris.
                             </p>
                         </div>
                         <div class="testimonial">
@@ -128,7 +133,9 @@
                                 <span class="post">Web Designer</span>
                             </div>
                             <p class="description">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam varius eros consequat auctor gravida. Fusce tristique lacus at urna sollicitudin pulvinar. Suspendisse hendrerit ultrices mauris.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam varius eros consequat
+                                auctor gravida. Fusce tristique lacus at urna sollicitudin pulvinar. Suspendisse
+                                hendrerit ultrices mauris.
                             </p>
                         </div>
                         <div class="testimonial">
@@ -140,14 +147,16 @@
                                 <span class="post">Web Developer</span>
                             </div>
                             <p class="description">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam varius eros consequat auctor gravida. Fusce tristique lacus at urna sollicitudin pulvinar. Suspendisse hendrerit ultrices mauris.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam varius eros consequat
+                                auctor gravida. Fusce tristique lacus at urna sollicitudin pulvinar. Suspendisse
+                                hendrerit ultrices mauris.
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
+    </div>
 
 
 
@@ -158,13 +167,29 @@
     <!-- Footer start -->
 
     <footer class="footer  mt-auto">
-        <div class="row bg-navydark justify-content-around pt-4" width="200px">
-            <div class="card col-md-6 bg-navydark my-3 mx-4" style="width: 18rem;">
-                <img src="/img/logo/qr.png" class="card-img-top" alt="...">
-                <div class="card-body ">
-                    <p class="card-text text-white">Allocate your PR mandate to us, and forget the rest. As we say, Your
-                        Image, Our Duty! – THE RIGHT PR</p>
-                </div>
+        <div class="row bg-navydark justify-content-around pt-4" >
+            <div class="card col-md-6 my-3 bg-navydark col-12 px-3" >
+                    <!-- form here -->
+                    <div class="text-center">
+                            <h3 class="text-white ">Contact Us</h3>
+                    </div>
+                    
+                    <form class="cf">
+                      <div class="half left cf">
+                        <input type="text" id="input-name" placeholder="Name">
+                        <input type="email" id="input-email" placeholder="Email address">
+                        <input type="text" id="input-subject" placeholder="Subject">
+                      </div>
+                      <div class="half right cf">
+                        <textarea name="message" type="text" id="input-message" placeholder="Message"></textarea>
+                      </div>  
+                      <input type="submit" value="Submit" id="input-submit">
+                    </form>
+
+
+
+
+                    <!-- form ends -->
             </div>
             <div class="card col-md-5 bg-navydark">
                 <div class="card-body bg-navydark">
